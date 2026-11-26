@@ -1,0 +1,10 @@
+# Keeps the SHA-pinned actions current. Version updates wait 7 days after a release; security updates do not.
+# https://github.com/evocaslab/hq/blob/main/practices/supply-chain-security.md
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 7

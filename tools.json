@@ -1,0 +1,18 @@
+[
+  {
+    "name": "atlas",
+    "description": "Architecture, checked against the code. A YAML model of elements and relations, validated against the code and exported to diagrams, for AI-assisted development.",
+    "repo": "https://github.com/evocaslab/atlas",
+    "guide": null,
+    "brand_book": "https://github.com/evocaslab/atlas/blob/main/docs/brand.md",
+    "schemas": 0,
+    "tags": [
+      "rust",
+      "cli",
+      "wasm",
+      "architecture",
+      "diagrams",
+      "ai-dev"
+    ]
+  }
+]
